@@ -5,7 +5,7 @@ const routes = require("./routes/index");
 // var db = new loki("./db.json", { autosave: true });
 console.log(db.listCollections());
 const bot = new Telegraf(
-  "1952831387:AAGAlZeRrIo_NNdW_TjsWe8we4ck-KzhvYk"
+  ""
 ).catch((err) => console.log(err));
 
 bot.start(routes.start);
